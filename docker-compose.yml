@@ -12,7 +12,7 @@ services:
       - DOCKER_INFLUXDB_INIT_USERNAME=admin
       - DOCKER_INFLUXDB_INIT_PASSWORD=password
       - DOCKER_INFLUXDB_INIT_ORG=ankit
-      - DOCKER_INFLUXDB_INIT_BUCKET=radsen 
+      - DOCKER_INFLUXDB_INIT_BUCKET=aerosol 
   grafana:
     image: grafana/grafana:latest
     ports:
